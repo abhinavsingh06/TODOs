@@ -3,4 +3,39 @@
     <h1>TODOs</h1>
     <input class="new-todo" placeholder="What needs to be done?" autofocus />
   </header>
+  <section class="main">
+    <ul class="todo-list">
+      <li class="completed">
+        <div class="view">
+          <input type="checkbox" checked class="toggle" />
+          <label>Install</label>
+          <button class="destroy"></button>
+        </div>
+        <input value="Create MVC Todo" class="edit" />
+      </li>
+      <li>
+        <div class="view">
+          <input type="checkbox" class="toggle" />
+          <label>Understanding Angular 2</label>
+          <button class="destroy"></button>
+        </div>
+        <input value="Rule the web" class="edit" />
+      </li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <span class="todo-count"><strong>0</strong></span>
+    <ul class="filters">
+      <li>
+        <a class="selected" href="#/">All</a>
+      </li>
+      <li>
+        <a href="#/active">Active</a>
+      </li>
+      <li>
+        <a href="#/completed">Completed</a>
+      </li>
+    </ul>
+    <button class="clear-completed">Clear completed</button>
+  </footer>
 </section>
