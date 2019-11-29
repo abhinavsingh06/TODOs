@@ -1,12 +1,7 @@
 import { Injectable, NgModule } from "@angular/core";
 import { resolve } from "url";
 
-let TODOS = [
-  // { title: "Install Angulat CLI", isDone: true },
-  // { title: "Style app", isDone: true },
-  // { title: "Finish service functionality", isDone: false },
-  // { title: "Setup API", isDone: false }
-];
+let TODOS = [];
 
 @Injectable({
   providedIn: "root"
